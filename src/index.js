@@ -3,7 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
+//var element = React.createElement('h1', { className: 'label' }, 'Zip Code');
+//ReactDOM.render(element, document.getElementById('root'));
+//registerServiceWorker();
+  
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
